@@ -1,0 +1,5 @@
+# Bloquear acceso a la carpeta js
+<FilesMatch "\.(js)$">
+    Order deny,allow
+    Deny from all
+</FilesMatch>
